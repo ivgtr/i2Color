@@ -1,62 +1,24 @@
 <template>
-  <div>
-    <Nuxt />
+  <div class="root relative overflow-hidden bg-gray-800">
+    <h1 class="text-4xl text-white font-bold text-center mt-4">i2Color</h1>
+    <main class="main w-full min-h-full flex items-center justify-center">
+      <nuxt />
+    </main>
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+<style scoped>
+.root {
+  justify-items: center;
+  width: 100%;
+  min-height: 100vh;
+  height: 1px;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+/* stylelint-disable */
+_::-webkit-full-page-media,
+_:future,
+:root .root {
+  min-height: -webkit-fill-available;
 }
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+/* stylelint-enable */
 </style>
