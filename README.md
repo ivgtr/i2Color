@@ -1,20 +1,15 @@
-# i2Color
+<p align="center">
+  <h3 align="center">i2Color</h3>
+  <p align="center">
+    <a href="https://i2-color.vercel.app/">https://i2-color.vercel.app/</a>
+  </p>
+  <p align="center">画像から特徴色を抽出し表示するサイト</p>
+</p>
 
-## Build Setup
 
-```bash
-# install dependencies
-$ yarn install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## License
+MIT ©[ivgtr](https://github.com/ivgtr)
 
-# build for production and launch server
-$ yarn build
-$ yarn start
 
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[![Twitter Follow](https://img.shields.io/twitter/follow/mawaru_hana?style=social)](https://twitter.com/mawaru_hana) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) [![Donate](https://img.shields.io/badge/%EF%BC%84-support-green.svg?style=flat-square)](https://www.buymeacoffee.com/ivgtr)  
